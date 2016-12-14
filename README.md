@@ -10,10 +10,13 @@ SECCON TOWER TrueType font
 
 SECCON 2016 online CTFの問題 "PNG over Telegraph" にて登場する "SECCON TOWER" こと腕木通信塔が表現する36の形状を、対応する英数字記号に割り当てたフォントです。
 
-大文字英数字(Jを除く)と、0〜9の数字、&(アンパサンド)が使用可能です。
+大文字英字(Jを除く)と、0〜9の数字、&(アンパサンド)が使用可能です。
+
+Chappe Codeにおける "10" は数字の0に割り当てています。
 
 * 36 symbols are assigned to A-I, K-Z, 0-9 and "&".
 * "J" is not included because it is not defined in Chappe Code.
+* "10" is assigned to "0".
 
 ## Files
 
@@ -21,7 +24,6 @@ SECCON 2016 online CTFの問題 "PNG over Telegraph" にて登場する "SECCON 
 * seccon_tower.woff - Web font
 * seccon_tower.woff2 - Web font (WOFF 2.0)
 * svg/[A-IK-Z0-9&].svg - SVG(ver1.1) file(s)
-
 
 ## How to use (in your website)
 
@@ -51,6 +53,8 @@ SECCON 2016 online CTFの問題 "PNG over Telegraph" にて登場する "SECCON 
   </body>
 </html>
 ```
+
+[demo](http://www.quitsq.com/demo/sctf/png_over_telegraph.html)
 
 ## See also
 
