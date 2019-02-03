@@ -54,7 +54,9 @@ Chappe Codeにおける "10" は数字の0に割り当てています。
 </html>
 ```
 
-[demo](http://www.quitsq.com/demo/sctf/png_over_telegraph.html)
+## demo
+
+["PNG over Telegraph" full text](https://9sq.github.io/SECCON_TOWER_FONT/)
 
 ## See also
 
